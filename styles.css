@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 1.8fr 0.1fr 1.7fr;
+    grid-template-rows: 0.3fr 2.5fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Header Header Header"
+        "Clothing-Clicker- Store Store"
+        "Footer Footer Footer";
+    height: 100vh;
+}
+
+.Header {
+    grid-area: Header;
+    background-color: rgb(190, 171, 163);
+}
+
+.Clothing-Clicker- {
+    grid-area: Clothing-Clicker-;
+    background-color: rgb(84, 77, 77);
+}
+
+.Store {
+    grid-area: Store;
+    background-color: rgb(91, 93, 118);
+}
+
+.Footer {
+    grid-area: Footer;
+    background-color: rgb(188, 164, 162);
+}
