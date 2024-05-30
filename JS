@@ -1,3 +1,4 @@
+
 let points = 0 
 let pointsTracker = document.getElementById("pointsTracker")
 let coat = 0
@@ -23,4 +24,16 @@ function gameloop() {
     points = points + (coat * 1)
     pointsTracker.innerText = points + "Clothing Points"
 }
+
 setInterval(gameloop,10000)
+
+
+let nameInput = document.getEleementById("name")
+console.log(nameInput.value)
+function Clickme () {}
+console.log(nameInput.value)
+
+let hi = document.getElementById("hi")
+hi.innerText ="hi," + nameInput.value 
+
+                                                                                                                                   
